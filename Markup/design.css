@@ -32,6 +32,13 @@ footer {
   font-size: small;
 }
 
+
+.flex-header {
+  height: 80vh;
+  margin: auto;
+  text-align: center;
+}
+
 .flex-container{
   display: flex;
   flex-direction: row;
@@ -52,7 +59,9 @@ footer {
 
 #title-image{
   border: 5px solid #C4C4C4;
-  border-radius: 50%;
+  width: 40rem;
+  height: 30rem;
+  border-radius: 80%;
 }
 
 #subtitle{
@@ -60,4 +69,9 @@ footer {
   margin-top: 0%;
 }
 
+#main-header {
+  background: #333333;
+  padding: 4rem 0;
+  
+}
 
